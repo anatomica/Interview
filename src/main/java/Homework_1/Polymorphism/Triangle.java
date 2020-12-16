@@ -1,4 +1,4 @@
-package Polymorphism;
+package Homework_1.Polymorphism;
 
 public class Triangle extends Shape {
 

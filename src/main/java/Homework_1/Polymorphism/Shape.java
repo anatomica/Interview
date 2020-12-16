@@ -1,4 +1,4 @@
-package Polymorphism;
+package Homework_1.Polymorphism;
 
 abstract class Shape implements Paper{
     private String type;

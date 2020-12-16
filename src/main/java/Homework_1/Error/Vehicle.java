@@ -1,4 +1,4 @@
-package Error;
+package Homework_1.Error;
 
 abstract class Vehicle implements Moveable, Motionless{
     private String engine;

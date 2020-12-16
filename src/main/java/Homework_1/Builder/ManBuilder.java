@@ -1,15 +1,14 @@
-package Builder;
+package Homework_1.Builder;
 
-public class WomanBuilder extends AbstractBuilder {
-
+public class ManBuilder extends AbstractBuilder{
     @Override
     void buildFirstName() {
-        person.setFirstName("Ольга");
+        person.setFirstName("Макс");
     }
 
     @Override
     void buildLastName() {
-        person.setLastName("Фомина");
+        person.setLastName("Фомин");
     }
 
     @Override
@@ -39,6 +38,6 @@ public class WomanBuilder extends AbstractBuilder {
 
     @Override
     void buildGender() {
-        person.setGender(Gender.WOMAN);
+        person.setGender(Gender.MAN);
     }
 }

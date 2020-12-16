@@ -1,4 +1,4 @@
-package Error;
+package Homework_1.Error;
 
 public class Main {
 
